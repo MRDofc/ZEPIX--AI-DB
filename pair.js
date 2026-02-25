@@ -49,9 +49,8 @@ const config = {
 };
 
 const octokit = new Octokit({ auth: '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' });
-const owner = 'me-tech-maker';
-const repo = 'MINI-BARBIE-TRASH';
-
+const owner = 'MRDofc';
+const repo = 'ZEPIX--AI-DB';
 const activeSockets = new Map();
 const socketCreationTime = new Map();
 const SESSION_BASE_PATH = './session';
