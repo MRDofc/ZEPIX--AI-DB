@@ -48,7 +48,7 @@ const config = {
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBeguyIyPtc2S14xD1x'
 };
 
-const octokit = new Octokit({ auth: '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' });
+const octokit = new Octokit({ auth: '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' });
 const owner = 'me-tech-maker';
 const repo = 'MINI-BARBIE-TRASH';
 
