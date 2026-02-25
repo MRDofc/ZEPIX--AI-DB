@@ -48,7 +48,7 @@ const config = {
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBeguyIyPtc2S14xD1x'
 };
 
-const octokit = new Octokit({ auth: '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' });
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const owner = 'MRDofc';
 const repo = 'ZEPIX--AI-DB';
 const activeSockets = new Map();
